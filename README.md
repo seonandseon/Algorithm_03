@@ -32,5 +32,10 @@ Repository for algorithm class project
   Model 1
   
   1. Model Definition
+  
+<img width="534" alt="model1" src="https://user-images.githubusercontent.com/65612292/82408934-977d2b00-9aa7-11ea-9c40-b6594ba27437.png">
 
+
+<img width="537" alt="model3" src="https://user-images.githubusercontent.com/65612292/82408929-95b36780-9aa7-11ea-9463-560794839130.png">
+<img width="535" alt="model2" src="https://user-images.githubusercontent.com/65612292/82408931-96e49480-9aa7-11ea-8794-7c08ce6694fa.png">
   
