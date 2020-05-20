@@ -58,5 +58,12 @@ Model 3
   1. Model Definition
 <img width="537" alt="model3" src="https://user-images.githubusercontent.com/65612292/82408929-95b36780-9aa7-11ea-9463-560794839130.png">
   2. Training Step
-  
+<img width="487" alt="train3" src="https://user-images.githubusercontent.com/65612292/82411841-81726900-9aad-11ea-83c5-d59275c93456.png">
+  3. Test Step
+<img width="388" alt="test3" src="https://user-images.githubusercontent.com/65612292/82411856-8800e080-9aad-11ea-9964-9c8f90be39bb.png">
+  4. Predict Success Case
+<img width="462" alt="success3" src="https://user-images.githubusercontent.com/65612292/82411864-8cc59480-9aad-11ea-9674-6eafdc7fb997.png">
+  5. Predict Failure Case
+<img width="662" alt="failure3" src="https://user-images.githubusercontent.com/65612292/82411881-9222df00-9aad-11ea-9535-0caa6aa54fbf.png">
+
   
