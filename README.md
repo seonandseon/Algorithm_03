@@ -46,6 +46,7 @@ And the result of Dense Layer comes out as a representative value through softma
 
 + Models 1,2,3 have 3, 5, and 7 layers respectively.
 The details are as shown in the table below, and the code is also attached as a later image.
+
 |Model 1|Model 2|Model 3|
 |---|---|---|
 |Convoultion|Convoultion|Convoultion|
