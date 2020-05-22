@@ -1,5 +1,6 @@
 # Algorithm_03
 Repository for algorithm class project
+
 ### Open Source SW Project(Deep Learning)
 ### student id : 20186628
 
@@ -7,7 +8,7 @@ Repository for algorithm class project
 >This is an open source SW project which makes use of open source libraries to address simple hand-written digit classification problem.
 >In this README.md, source code, classification result(accuracies) and success/failure cases(images) will be included.
 
-### contents
+### Contents
 + About CNN model
 + For each of Model 1, Model 2 and Model 3, contents below are included.
   + Model Definition
@@ -24,14 +25,13 @@ Repository for algorithm class project
 Maintain dimensions. Do not flatten images.
 Good for graphical analysis and better recognize features of adjacent parts as images.
 
-> The key to learning is convolutional kernel (filter).
+> The key to learning is convolutional kernel(filter).
 As learning takes place, the filter changes to a role similar to the weight.
 The convolutional layer is the role of finding the characteristics of the image.
 
 > Maxpool is a type of pooling layer.
 Reduce the matrix size resulting from the convolution.
-For Max pooling, the largest value is taken as the representative value.
-There is also an average pooling.
+For Max pooling, the largest value is taken as the representative value. There is also an average pooling.
 The pooling layer strengthens the characteristics of the image.
 It functions as an extracting image feature by combining the convoultion layer and pooling layer.
 
@@ -60,8 +60,8 @@ The details are as shown in the table below, and the code is also attached as a 
 
 
 
-## Model 1
-  1. Model Definition
+## Model 1 : 3 Layers
+1. Model Definition
 <img width="534" alt="model1" src="https://user-images.githubusercontent.com/65612292/82408934-977d2b00-9aa7-11ea-9c40-b6594ba27437.png">
   2. Training Step
 <img width="501" alt="train1" src="https://user-images.githubusercontent.com/65612292/82409437-b4fec480-9aa8-11ea-9893-5b4bcaa1d0c4.png">
@@ -73,7 +73,8 @@ The details are as shown in the table below, and the code is also attached as a 
 <img width="660" alt="failure1" src="https://user-images.githubusercontent.com/65612292/82409439-b4fec480-9aa8-11ea-9e21-0592dd820f2b.png">
 
 
-## Model 2
+
+## Model 2 : 5 Layers
   1. Model Definition
 <img width="535" alt="model2" src="https://user-images.githubusercontent.com/65612292/82408931-96e49480-9aa7-11ea-8794-7c08ce6694fa.png">
   2. Training Step
@@ -86,7 +87,8 @@ The details are as shown in the table below, and the code is also attached as a 
 <img width="661" alt="failure2" src="https://user-images.githubusercontent.com/65612292/82410257-7833cd00-9aaa-11ea-91c8-ca5f859b25be.png">
 
 
-## Model 3
+
+## Model 3 : 7 Layers
   1. Model Definition
 <img width="537" alt="model3" src="https://user-images.githubusercontent.com/65612292/82408929-95b36780-9aa7-11ea-9463-560794839130.png">
   2. Training Step
@@ -101,7 +103,6 @@ The details are as shown in the table below, and the code is also attached as a 
 
 
 ## Graph of results
-
 When training with 3,5,7 layers of models
 The result is that the accuracy is getting higher and the loss is getting lower.
 
