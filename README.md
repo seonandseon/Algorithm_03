@@ -44,6 +44,7 @@ The Dense Layer maps flattened data to values between 0 and 9.
 And the result of Dense Layer comes out as a representative value through softmax function.
 
 
+
 Models 1,2,3 have 3, 5, and 7 layers respectively.
 The details are as shown in the table below, and the code is also attached as a later image.
 |Model 1|Model 2|Model 3|
@@ -98,9 +99,12 @@ The details are as shown in the table below, and the code is also attached as a 
 <img width="662" alt="failure3" src="https://user-images.githubusercontent.com/65612292/82411881-9222df00-9aad-11ea-9535-0caa6aa54fbf.png">
 
 
+-----
+
 When training with 3,5,7 layers of models
 The result is that the accuracy is getting higher and the loss is getting lower.
 
 The graph showing the results of loss and accuracy is shown below.
+<img width="335" alt="graph" src="https://user-images.githubusercontent.com/65612292/82649583-668e2900-9c54-11ea-9d42-401c129bcf61.png">
 
   
