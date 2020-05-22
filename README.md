@@ -15,37 +15,36 @@ Repository for algorithm class project
   + Test Step
   + Predict Success Case
   + Predict Failure Case
-+ Graph of result  
++ Graph of results
   
 
 ## About CNN model
 
-Advantages of Convolutional Neural Network Compared to previous Fully Connected Neural Network
++ Advantages of Convolutional Neural Network Compared to previous Fully Connected Neural Network
 Maintain dimensions. Do not flatten images.
 Good for graphical analysis and better recognize features of adjacent parts as images.
 
-The key to learning is convolutional kernel (filter).
+> The key to learning is convolutional kernel (filter).
 As learning takes place, the filter changes to a role similar to the weight.
 The convolutional layer is the role of finding the characteristics of the image.
 
-Maxpool is a type of pooling layer.
+> Maxpool is a type of pooling layer.
 Reduce the matrix size resulting from the convolution.
 For Max pooling, the largest value is taken as the representative value.
 There is also an average pooling.
-The pooling layer strengthens the characteristics of the image
+The pooling layer strengthens the characteristics of the image.
+It functions as an extracting image feature by combining the convoultion layer and pooling layer.
 
-Convoultion Layer + Pooling Layer : Extracting image features
-
-The Flatten Layer transforms data in the form of images into one dimension.
+> The Flatten Layer transforms data in the form of images into one dimension.
 It transforms the Convolutional Neural Network type into a Fully Connected Neural Network type.
 
-Dense Layer is Fully Connected Layer.
+> Dense Layer is Fully Connected Layer.
 The Dense Layer maps flattened data to values between 0 and 9.
 And the result of Dense Layer comes out as a representative value through softmax function.
 
 
 
-Models 1,2,3 have 3, 5, and 7 layers respectively.
++ Models 1,2,3 have 3, 5, and 7 layers respectively.
 The details are as shown in the table below, and the code is also attached as a later image.
 |Model 1|Model 2|Model 3|
 |---|---|---|
@@ -99,7 +98,8 @@ The details are as shown in the table below, and the code is also attached as a 
 <img width="662" alt="failure3" src="https://user-images.githubusercontent.com/65612292/82411881-9222df00-9aad-11ea-9535-0caa6aa54fbf.png">
 
 
------
+
+## Graph of results
 
 When training with 3,5,7 layers of models
 The result is that the accuracy is getting higher and the loss is getting lower.
