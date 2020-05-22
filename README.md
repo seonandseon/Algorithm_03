@@ -5,7 +5,7 @@ Repository for algorithm class project
 ### student id : 20186628
 
 
->This is an open source SW project which makes use of open source libraries to address simple hand-written digit classification problem.
+>This is an open source SW project which makes use of open source libraries to address simple hand-written digit classification problem.  
 >In this README.md, source code, classification result(accuracies) and success/failure cases(images) will be included.
 
 ### Contents
@@ -21,30 +21,31 @@ Repository for algorithm class project
 
 ## About CNN model
 
-+ Advantages of Convolutional Neural Network Compared to previous Fully Connected Neural Network
-Maintain dimensions. Do not flatten images.
-Good for graphical analysis and better recognize features of adjacent parts as images.
++ Advantages of Convolutional Neural Network Compared to previous Fully Connected Neural Network   
+It preserves dimensions. It does not flatten images.  
+It is good for graphical analysis and better recognizes features of adjacent parts as images.
 
-> The key to learning is convolutional kernel(filter).
-As learning takes place, the filter changes to a role similar to the weight.
+> The key to learning is convolutional kernel(filter).  
+As learning takes place, the filter changes to a role similar to the weight.  
 The convolutional layer is the role of finding the characteristics of the image.
 
-> Maxpool is a type of pooling layer.
-Reduce the matrix size resulting from the convolution.
-For Max pooling, the largest value is taken as the representative value. There is also an average pooling.
-The pooling layer strengthens the characteristics of the image.
-It functions as an extracting image feature by combining the convoultion layer and pooling layer.
+> Maxpool layer is a type of pooling layer.
+It reduces the matrix size resulting from the convolution.  
+For Max pooling, the largest value is taken as the representative value.  
+There is also an average pooling.
+The pooling layer strengthens the characteristics of the image.  
+By combining the convolution layer and pooling layer, it functions as extracting image feature.
 
-> The Flatten Layer transforms data in the form of images into one dimension.
+> The Flatten Layer transforms data in the form of images into one dimension.  
 It transforms the Convolutional Neural Network type into a Fully Connected Neural Network type.
 
 > Dense Layer is Fully Connected Layer.
-The Dense Layer maps flattened data to values between 0 and 9.
+The Dense Layer maps flattened data to values between 0 and 9.  
 And the result of Dense Layer comes out as a representative value through softmax function.
 
 
 
-+ Models 1,2,3 have 3, 5, and 7 layers respectively.
++ Models 1,2,3 have 3, 5, and 7 layers respectively.  
 The details are as shown in the table below, and the code is also attached as a later image.
 
 |Model 1|Model 2|Model 3|
